@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: #182747
+}
+
+h1{
+    text-align: center;
+    color: beige;
+    font-size: 50px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    margin-left: -20px;
+    
+}
+
+.bingo-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  font-size: 30px;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.numCell {
+  border: 1px solid beige;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: 182747
+}
+
+#button{
+    border: none;
+    border-radius: 2px;
+    background-color: beige;
+    font-size: 1.1rem;
+    box-shadow: 2px 5px 20px rgba(211, 209, 209, 0.205);
+    margin-top: 20px;
+}
+
+p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.effect{
+    background-color: gold;
+    color:white
+
+}
+
+
+#ptag {
+    
+    margin-right:1000px;
+    color:gold;
+    font-size: 20px;
+    margin-left: -325px;
+    
+    width: 100%;
+        
+    }
+
